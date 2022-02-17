@@ -1,0 +1,387 @@
+
+body {
+    background: linear-gradient(to bottom, #18a, rgb(245, 61, 61));
+}
+
+.navbar {
+    background-color: #19a;
+    margin: 15px 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.card {
+    height: 300px;
+    background-color: rgb(250, 165, 68);
+    border: 3px solid #a13;
+    transition: 2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card-img-top {
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    float: right;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.index-cardaside {
+    border: 2px solid #a13  ;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(245, 61, 61);
+}
+
+.index-cardaside-img {
+    width: 180px;
+    position: relative;
+    float: right ;
+    transform: translate(0px, -15px);
+    transition: 2s
+}
+
+.index-cardaside-img:hover {
+    transform: scale(1.2) translate(-5px, -15px);
+}
+
+.index-cardaside-title {
+    font-size: 25px;
+}
+
+.index-cardaside-text {
+    font-size: 18px;
+    text-align: end;
+}
+
+.estilofooter {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+.linkfooter {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Trabajos*/
+
+.trabajos-rowarticle {
+    border: 2px solid #a13;
+}
+
+.trabajos-colarticle {
+    border: 1px solid #333;
+}
+
+.trabajos-titlesection {
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.trabajos-textsection {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.trabajos-imgsection {
+    position: relative;
+    margin: 5px 30px;
+    width: 200px;
+    transition: 1.5s;
+}
+
+.trabajos-imgsection:hover {
+    transform: scale(1.2) translate(5px, -10px);
+}
+
+.trabajos-titlesection-2 {
+    font-size: 25px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.trabajos-textsection-2 {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.trabajos-imgsection-2 {
+    position: relative;
+    margin: 5px 10px;
+    width: 180px;
+    transition: 1.5s;
+}
+
+.trabajos-imgsection-2:hover {
+    transform: scale(1.2) translate(5px, -10px);
+}
+
+.trabajos-rowaside {
+    border: 2px solid #a13;
+    margin-top: 20px;
+}
+
+.trabajos-colaside {
+    border: 1px solid #333;
+}
+
+.trabajos-titleaside {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+.trabajos-textaside {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.trabajos-textaside a {
+    color: #fff;
+}
+
+.trabajos-imgaside {
+    position: relative;
+    float: left;
+    padding: 10px;
+    transition: 1.2s;
+}
+
+.trabajos-imgaside:hover {
+    transform: scale(1.1);
+}
+
+/*COMENTARIOS*/
+
+.comentarios-containerarticle{
+    margin: 30px 100px;
+}
+
+.comentarios-cardarticle {
+    height: 500px;
+    border: 2px solid #a13;
+    background-color: #18a;
+    padding: 10px;
+}
+
+.comentarios-titlecard {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+}
+
+.comentarios-textcard {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.comentarios-imgcard {
+    position: relative;
+    width: 150px;
+    float: left;
+    padding: 5px;
+    transition: 1.4s;
+}
+
+.comentarios-imgcard:hover {
+    transform: scale(1.2) translate(2px);
+}
+
+.comentarios-textcard--modifier {
+    padding-top: 40px;
+    font-size: 15px;
+}
+
+.comentarios-form {
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+.form-control {
+    resize: none;
+}
+
+
+/*Presupuestos*/
+
+.gridarticlePr__section {
+    border: 2px #333 solid;
+    height: 540px;
+}
+
+.gridarticlePr__section:first-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+}
+
+.gridarticlePr__section:first-child h2 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.gridarticlePr__section:first-child p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.gridarticlePr__section:first-child img {
+    width: 700px;
+    padding-top: 30px;
+}
+
+
+.gridarticlePr__section:nth-child(2) {
+    grid-column: 2 / 5;
+    grid-row: 1 / 5;
+}
+
+#legend__presupuestos {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #248;
+    padding: 10px;
+    text-align: center;
+}
+
+.flexformPr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formPr__section {
+    padding: 17px 10px 0px 10px;
+}
+
+.formPr__item {
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.formPr__item--textarea {
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    resize: none;
+}
+
+.formPr__section--button {
+    font-size: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+.formPr__item--p {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.presupuestos-article {
+    margin: 40px 10px;
+}
+
+.contacto-article {
+    border: 2px solid #333;
+}
+
+.contacto-title {
+    font-size: 30px;
+    padding: 10px;
+    color: #fff;
+}
+
+.contacto-text {
+    padding: 10px;
+    color: #fff;
+}
+
+..articlecontact h2 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px;
+}
+
+.articlecontact p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.articlecontact h6 {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.articlecontact h6 a {
+    font-size: 15px;
+    padding: 3px;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(255, 19, 19);
+}
+
+.articlecontact h6 a:focus {
+    color: rgb(5, 230, 173);
+}
+
+.articlecontactimg {
+    margin: 10px 50px 30px 200px;
+    border: 2px #248 solid;
+    width: 900px;
+}
+
+.articlecontactimg img {
+    transition: 2s;
+}
+
+.articlecontactimg img:hover {
+    transform: scale(1.2);
+}
+
+.articlecontactimg h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    padding: 5px;
+}
+
+.articlecontactimg h4 {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    padding: 5px;
+}
+
+.articlecontactimg h6 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding: 10px;
+}
